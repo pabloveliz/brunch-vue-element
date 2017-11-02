@@ -1,0 +1,38 @@
+{
+  "name": "brunch-vue-element",
+  "description": "A Barebones Vue/Element Skeleton for Brunch",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "brunch watch --server --network",
+    "build": "brunch build --production",
+    "postinstall": "cp -R node_modules/element-ui/lib/theme-chalk/fonts/  public/"
+  },
+  "author": {
+    "url": "http://kinetworking.com",
+    "name": "Pablo Veliz",
+    "email": "pabloveliz@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/pabloveliz/brunch-vue-element"
+  },
+  "keywords": [
+    "vue",
+    "brunch",
+    "skeleton",
+    "element-ui"
+  ],
+  "dependencies": {
+    "element-ui": "^2.0.2",
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {
+    "babel-brunch": "^6.1.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "brunch": "^2.10.10",
+    "uglify-js-brunch": "^2.10.0",
+    "vue-brunch": "^2.0.1"
+  },
+  "license": "ISC"
+}
